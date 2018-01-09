@@ -1,5 +1,5 @@
 {
-    "name": "crypto100101/ice3x_v2_php",
+    "name": "ice3x/ice3x_v2_php",
     "description": "PHP API library for the popular ICE3X crypto exchange.",
     "keywords": ["exchange", "bitcoin", "litecoin", "ethereum"],
     "license": "GPL",
@@ -18,7 +18,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "crypto100101\\ice3x_v2_php\\": "src/"
+            "ice3x\\ice3x_v2_php\\": "src/"
         }
     }
 }

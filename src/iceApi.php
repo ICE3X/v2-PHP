@@ -1,6 +1,6 @@
 <?php
 
-namespace crypto100101\ice3x_v2_php;
+namespace ice3x\ice3x_v2_php;
 
 class iceApi
 {
