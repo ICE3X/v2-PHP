@@ -1,0 +1,24 @@
+{
+    "name": "crypto100101/ice3x_v2_php",
+    "description": "PHP API library for the popular ICE3X crypto exchange.",
+    "keywords": ["exchange", "bitcoin", "litecoin", "ethereum"],
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Richard W",
+            "email": "richardw@protonmail.ch"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "crypto100101\\ice3x_v2_php\\": "src/"
+        }
+    }
+}
