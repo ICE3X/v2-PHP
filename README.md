@@ -7,7 +7,7 @@ Usage example
 --------
 
 ```
-use crypto100101\ice3x_v2_php\iceApi as icePhpApi;
+use crypto100101\ice3x_v2_php\iceApi as iceApi;
 $iceApi = new iceApi("publickey", "privatekey");
 
 API Examples
