@@ -3,6 +3,8 @@ PHP API library for ICE3X
 
 Use this library to interface with ICE3X bitcoin exchange with PHP
 
+Visit your ice3x account to generate your public & private keys.
+
 Usage example
 --------
 
