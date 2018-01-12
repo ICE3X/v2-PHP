@@ -8,6 +8,8 @@ Visit your ice3x account to generate your public & private keys.
 Usage example
 --------
 
+`composer require ice3x/ice3x_v2_php`
+
 ```
 use ice3x\ice3x_v2_php\iceApi as iceApi;
 $iceApi = new iceApi("publickey", "privatekey");
