@@ -135,11 +135,12 @@ class iceApi
         curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/4.0 (compatible; ICE3X PHP client; '.php_uname('s').'; PHP/'.phpversion().')');
         curl_setopt($ch, CURLOPT_URL, 'https://ice3x.com/api/v1/'.$url.'?'.http_build_query($data));
         $result = curl_exec($ch);
-        curl_close($ch);
 
         if ($result === false) {
             throw new Exception('Could not get reply: '.curl_error($ch));
         }
+        
+        curl_close($ch);
 
         if (!($result = json_decode($result, true))) {
             switch (json_last_error()) {
